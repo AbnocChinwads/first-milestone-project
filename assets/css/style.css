@@ -4,8 +4,9 @@ body {
     position: relative;
     min-height: 100vh;
     background-color: #343a40;
-    color: #fafafa;
+    color: #fafafa86;
     padding-bottom: 2rem; /* Footer position */
+    letter-spacing: 0.25rem;
 }
 
 /*--------------------------------------------------------- Header*/
@@ -16,12 +17,17 @@ body {
     text-align: center;
 }
 
+article > p {
+    margin: 1rem;
+}
+
 /*--------------------------------------------------------- Jumbotron*/
 
 .jumbotron {
-    color: #ff0000;
+    color: red;
     background-image: url("../images/woman-mountain-sunrise.jpeg");
     background-size: cover;
+    filter: sepia(25%);
 }
 
 /*--------------------------------------------------------- Heading*/
@@ -38,11 +44,11 @@ body {
     bottom: 0;
     width: 100%;
     background-color: #343a40;
-    color: white;
+    color: #fafafa86;
     text-align: center;
 }
 
 .anchor-styling {
     padding: 0.5em;
-    color: #fafafaa6;
+    color: #fafafa86;
 }
