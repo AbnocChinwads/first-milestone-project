@@ -21,30 +21,55 @@ body {
     margin-bottom: 1rem;
 }
 
+.address-padding {
+    padding-left: 1rem;
+}
+
 /*--------------------------------------------------------- Jumbotron*/
 
 .jumbotron {
     color: red;
-    background-image: url("../images/woman-mountain-sunrise.jpeg");
+    background-image: url("../images/dice.jpg");
     background-size: cover;
-    filter: sepia(25%);
-}
+    height: 80vh;
+} /* Ensures correct display of jumbotron image */
 
 /*--------------------------------------------------------- Heading*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Lato', sans-serif;
+}
 
 .heading-center {
     text-align: center;
 }
 
 .heading-style-uppercase {
-    font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
 }
 
 /*--------------------------------------------------------- Paragraph*/
 
 p {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 1rem;
+}
+
+/*--------------------------------------------------------- Address*/
+
+.address-anchor-styling {
+    text-decoration: none;
+    color: #fafafa86;
+}
+
+address>a:hover {
+    color: #0056b3;
+    text-decoration: none;
 }
 
 /*--------------------------------------------------------- Footer*/
