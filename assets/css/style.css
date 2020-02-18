@@ -25,10 +25,14 @@ body {
     padding-left: 1rem;
 }
 
+.center-text {
+    text-align: center;
+}
+
 /*--------------------------------------------------------- Jumbotron*/
 
 .jumbotron {
-    color: red;
+    color: #da2d2d;
     background-image: url("../images/dice.jpg");
     background-size: cover;
     height: 80vh;
@@ -62,13 +66,19 @@ p {
 
 /*--------------------------------------------------------- Address*/
 
+address {
+    font-family: 'Lato', sans-serif;
+}
+
 .address-anchor-styling {
     text-decoration: none;
     color: #fafafa86;
 }
 
-address>a:hover {
-    color: #0056b3;
+/*--------------------------------------------------------- Anchor*/
+
+a:hover {
+    color: #da2d2d;
     text-decoration: none;
 }
 
@@ -88,3 +98,5 @@ address>a:hover {
     padding: 0.5em; /* Creates spacing between social media links */
     color: #fafafa86;
 }
+
+/*--------------------------------------------------------- Media Queries*/
