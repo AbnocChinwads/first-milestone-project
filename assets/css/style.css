@@ -100,3 +100,14 @@ a:hover {
 }
 
 /*--------------------------------------------------------- Media Queries*/
+
+@media screen and (max-width: 768px) {
+    /* For mobiles and tablet */
+    .jumbotron {
+        background-position: center;
+        height: 40vh;
+    }
+    .center-text {
+        text-align: left;
+    }
+}
