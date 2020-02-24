@@ -71,13 +71,13 @@ to open a port that will run the site in your web browser. For other IDEs you wi
 
 ###Content
     
-    * The CSS for the body and #footer sections was taken from 
-    https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/ and modified to work more efficiently
+The CSS for the body and #footer sections was taken from 
+[FreeCodeCamp] (https://www.freecodecamp.org/news/how-to-keep-your-footer-where-it-belongs-59c6aa05c59c/) and modified to work more efficiently
 
 ###Media
     
-    * The photo used in this site was taken by me
+The photo used in this site was taken by me
 
 ###Acknowledgements
     
-    * I received inspiration for this project from my D&D sessions with my friends
+I received inspiration for this project from my D&D sessions with my friends
